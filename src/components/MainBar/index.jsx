@@ -42,7 +42,9 @@ class MainBar extends Component {
   };
 
   toggleDrawer = (open) => () => {
-    
+    this.setState({
+      openDrawerLeft: open,
+    });
   };
 
   render() {
