@@ -66,11 +66,7 @@ class UserDbData extends Component {
   }
 
   getAllActivities = async () => {
-    const response = await api.get('get_all_activities')
-    this.setState({
-      allActivities: response.data,
-      loading: false
-    })
+    
   }
 
   render() {
