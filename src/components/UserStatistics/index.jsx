@@ -49,8 +49,7 @@ class AccountStatistics extends Component {
   }
 
   componentDidMount = async () => {
-    await this.getAllUserStatistics()
-    await this.calculateProgress()
+  
   }
 
   calculateProgress = async () => {
