@@ -5,7 +5,6 @@ import Logger from '../Logger'
 import UserStatistics from '../UserStatistics'
  
 
-
 export default class MainContent extends Component {
   render() {
     return (
