@@ -60,10 +60,7 @@ class UserDbData extends Component {
     })
   }
 
-  componentWillUnmount() {
-    // clean timer
-    clearInterval(this.state.timeId)
-  }
+ 
 
   getAllActivities = async () => {
     const response = await api.get('get_all_activities')
