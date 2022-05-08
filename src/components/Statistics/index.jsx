@@ -105,7 +105,8 @@ class UserDbData extends Component {
                     <TableCell>{row.comments}</TableCell>
                     <TableCell>{row.follows}</TableCell>
                     <TableCell>{row.unfollows}</TableCell>
-
+                    <TableCell>{row.server_calls}</TableCell>
+                    <TableCell>{row.day_filter}</TableCell>
                   </TableRow>
                 );
               })}
