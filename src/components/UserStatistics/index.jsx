@@ -17,7 +17,10 @@ import Moment from 'moment'
 import ReactChartkick, { LineChart } from 'react-chartkick'
 import Chart from 'chart.js'
 
-
+// emotion lib
+const override = css`
+    display: block;
+    margin: 15px auto;`;
 
 const styles = theme => ({
   wrapper: {
