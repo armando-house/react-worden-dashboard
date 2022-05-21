@@ -48,7 +48,10 @@ class AccountStatistics extends Component {
     loading: true
   }
 
-  
+  componentDidMount = async () => {
+    await this.getAllUserStatistics()
+    await this.calculateProgress()
+  }
 
   calculateProgress = async () => {
     this.setState(prevState => {
